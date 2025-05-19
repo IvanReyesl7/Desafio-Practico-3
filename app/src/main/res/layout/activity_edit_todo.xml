@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Editar Tarea"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:layout_marginBottom="16dp" />
+
+  <EditText
+      android:id="@+id/tituloEditText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Nombre" />
+
+  <EditText
+      android:id="@+id/descripcionEditText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Apellido" />
+
+  <CheckBox
+      android:id="@+id/checkboxDone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Tarea completada"
+      android:layout_marginTop="8dp" />
+
+  <Button
+      android:id="@+id/actualizarButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Actualizar"
+      android:layout_marginTop="16dp" />
+
+  <Button
+      android:id="@+id/eliminarButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Eliminar"
+      android:textColor="#FFFFFF"
+      android:background="#D32F2F"
+      android:layout_marginTop="8dp" />
+
+  <Button
+      android:id="@+id/btnRegresar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Regresar"
+      />
+</LinearLayout>
